@@ -1,4 +1,4 @@
-class legendary-potato::params {
+class legendarypotato::params {
 	
 	$mhellomsg => 'Hello World, Puppet has found you!',
 	$filename  => 'legendary-potato.txt',
