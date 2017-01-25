@@ -1,4 +1,4 @@
-class legendarypotato::helloworld (
+class legendarypotato (
 	$mhellomsg     => $legendarypotato::params::mhellomsg,
 	$rootdir       => $legendarypotato::params::rootdir,
 	$filename      => $legendarypotato::params::filename,
