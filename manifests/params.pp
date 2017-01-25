@@ -7,10 +7,10 @@ class legendarypotato::params {
 	
 	case $os['kernel'] {
 		'linux': {
-			$rootdir => '/etc/'
+			$rootdir = '/etc/'
 		}
 		'windows': {
-			$rootdir => 'C:/'
+			$rootdir = 'C:/'
 		}
 	}
 }
