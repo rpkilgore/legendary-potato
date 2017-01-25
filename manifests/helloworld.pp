@@ -1,10 +1,10 @@
-class legendary-potato::helloworld (
-	$mhellomsg => $legendary-potato::params::mhellomsg,
-	$rootdir => $legendary-potato::params::rootdir,
-	$filename => $legendary-potato::params::filename,
-	$contenforfile => $legendary-potato::params::contenforfile,
-	$createfile => $legendary-potato::params::createfile,
-	) inherits $legendary-potato::params {
+class legendarypotato::helloworld (
+	$mhellomsg => $legendarypotato::params::mhellomsg,
+	$rootdir => $legendarypotato::params::rootdir,
+	$filename => $legendarypotato::params::filename,
+	$contenforfile => $legendarypotato::params::contenforfile,
+	$createfile => $legendarypotato::params::createfile,
+	) inherits $legendarypotato::params {
 	
 	notify{'mhellowmsg variable contains: $mhellomsg'} #just sends out a message with whatever was defined in the variable
 	
