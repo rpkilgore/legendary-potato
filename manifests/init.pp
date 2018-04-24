@@ -7,7 +7,7 @@ class legendarypotato (
 	) inherits legendarypotato::params {
 	
 	notify{"hellowmsg variable contains: $mhellomsg": }
-	notify{"new version 1.3":}
+	notify{"new version 1.4":}
 	
 	if $createfile {
 		#then create a file
